@@ -10015,6 +10015,7 @@ h3 {
 
 .logo a {
   font-size: 20px !important;
+  font-weight: 600;
 }
 
 .logo span {
@@ -10033,7 +10034,12 @@ h3 {
 }
 
 .search {
+  display: inline-flex;
   width: 600px;
+}
+
+.search form {
+  flex: 1;
 }
 
 .search input[type=text] {
@@ -10043,11 +10049,37 @@ h3 {
   width: 100%;
 }
 
+.search svg {
+  fill: orange;
+  width: 20px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
 .user_account a {
   display: inline-block;
   margin-left: 10px;
   font-size: 16px;
   color: #fff !important;
+}
+
+.shopping_cart a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopping_cart span {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.shopping_cart svg {
+  width: 25px;
+  fill: #fff;
 }
 
 .shop_wrapper {
