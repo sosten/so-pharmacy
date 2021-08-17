@@ -29,7 +29,7 @@
                 </div>
                 <div class="search">
                     <form>
-                        <input type="text" placeholder="Search by key word ...">
+                        <input type="text" placeholder="Search for products, brands and more">
                     </form>
                     <?php echo'<?xml version="1.0" encoding="iso-8859-1"?>';?>
                     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -94,8 +94,18 @@
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="bottom_nav">
+                <div><a href="#">Hair Care</a></div>
+                <div><a href="#">Skin Care</a></div>
+                <div><a href="#">Baby Oil & Bath</a></div>
+                <div><a href="#">For Women</a></div>
+                <div><a href="#">For Men</a></div>
+                <div><a href="#">Health</a></div>
+            </div>
+        </div>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
         @include('layouts.footer')

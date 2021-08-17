@@ -77,3 +77,22 @@
     fill: #fff;
 }
 
+.bottom_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding: 10px 0;
+    border-bottom: 1px solid #f7e8e8;
+}
+
+.bottom_nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 15px;
+}
+
+.bottom_nav a:hover {
+    text-decoration: none;
+}
+
